@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: hw2xpt1io
+  api_key: '747651377778433'
+  api_secret: II1LxbsD2JZYXsI_G3U3JBIl9bA
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: hw2xpt1io
+  api_key: '747651377778433'
+  api_secret: II1LxbsD2JZYXsI_G3U3JBIl9bA
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: hw2xpt1io
+  api_key: '747651377778433'
+  api_secret: II1LxbsD2JZYXsI_G3U3JBIl9bA
+  enhance_image_tag: true
+  static_image_support: false
