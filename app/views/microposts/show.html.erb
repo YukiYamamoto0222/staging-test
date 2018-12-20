@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @micropost.name %>
+</p>
+
+<% if @micropost.image? %>
+<p>
+  <strong>Image:</strong>
+  <!-- 画像表示 -->
+  <%= image_tag(@micropost.image_url, :alt => @micropost.name) %>
+</p>
+<p>
+  <!-- id（URL）確認用 -->
+  <%= @micropost.image_url.to_str %>
+<% end %>
+</p>
+
+<%= link_to 'Edit', edit_micropost_path(@micropost) %> |
+<%= link_to 'Back', microposts_path %>
